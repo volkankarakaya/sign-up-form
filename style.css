@@ -7,6 +7,11 @@
     font-family: sans-serif;
 }
 
+@font-face {
+    font-family: Norse Bold;
+    src: url(./Norse-Bold.otf);
+}
+
 
 .left-container div{
     background-color: rgba(0,0,0,0.4);
@@ -14,7 +19,8 @@
     display: flex;
     justify-content: center;
 
-    font-size: 48px;
+    font-size: 60px;
+    font-family: Norse Bold;
     color: white;
     
     
@@ -32,7 +38,9 @@ body{
 }
 
 #logo{
-    width: 100px;
+    height: 100px;
+    margin: auto 0;
+    
 }
 
 .left-container{
