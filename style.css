@@ -34,7 +34,7 @@
 
 body{
     display: flex;
-    
+    height: 100vh;
 }
 
 #logo{
@@ -71,9 +71,16 @@ body{
 form{
     
     
-    flex: 1 1 auto;
-    align-items: stretch;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
     
+   
+    
+}
+
+.right-container .top{
+    flex: 0 1 0;
 }
 form ul{
     list-style: none;
@@ -110,7 +117,13 @@ form div{
     margin: 0;
     padding-left: 0;
     width: auto;
+    flex: 1 1 auto;
+   
 
+}
+
+.bottom{
+    height: auto;
 }
 
 label{
